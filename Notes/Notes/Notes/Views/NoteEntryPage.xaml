@@ -10,10 +10,10 @@
                 HeightRequest="100" />
         <!-- Layout children in two columns -->
         <Grid ColumnDefinitions="*,*">
-            <Button Text="Save"
+            <Button Text="Salva"
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
-                    Text="Delete"
+                    Text="Cancella"
                     Clicked="OnDeleteButtonClicked"/>
         </Grid>
     </StackLayout>

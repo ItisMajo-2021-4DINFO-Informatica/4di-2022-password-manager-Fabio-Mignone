@@ -22,13 +22,15 @@ namespace Notes.Views
 
             // Create a Note object from each file.
             var files = Directory.EnumerateFiles(App.FolderPath, "*.notes.txt");
-            foreach (var filename in files)
+            foreach (var servizio in files)
             {
                 notes.Add(new Note
                 {
-                    Filename = filename,
-                    Text = File.ReadAllText(filename),
-                    Date = File.GetCreationTime(filename)
+                    Servizio = servizio,
+                    Password = File.ReadAllText(servizio),
+                    NomeUtente = File.ReadAllText(servizio),
+                    Url = File.ReadAllText(servizio),
+                    Date = File.GetCreationTime(servizio)
                 });
             }
 
@@ -51,7 +53,7 @@ namespace Notes.Views
             {
                 // Navigate to the NoteEntryPage, passing the filename as a query parameter.
                 Note note = (Note)e.CurrentSelection.FirstOrDefault();
-                await Shell.Current.GoToAsync($"{nameof(NoteEntryPage)}?{nameof(NoteEntryPage.ItemId)}={note.Filename}");
+                await Shell.Current.GoToAsync($"{nameof(NoteEntryPage)}?{nameof(NoteEntryPage.ItemId)}={note.Servizio}");
             }
         }
     }

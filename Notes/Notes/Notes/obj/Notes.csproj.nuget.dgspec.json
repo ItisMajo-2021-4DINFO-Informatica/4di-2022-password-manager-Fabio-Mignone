@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj": {}
+    "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj": {
+    "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj",
+        "projectUniqueName": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj",
         "projectName": "Notes",
-        "projectPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj",
+        "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj",
         "packagesPath": "C:\\Users\\FABIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\obj\\",
+        "outputPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VISUAL_STUDIO\\COMPONENTI\\NuGetPackages",

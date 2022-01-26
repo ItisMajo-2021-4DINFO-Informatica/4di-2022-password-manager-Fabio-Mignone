@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N52lgC5K2ruA47Cg0PVgRNUs0pAx5JHDnb6G+g3hjAjRmlGqk3luRudtn7ZpqcPBZAFI5PljeocjrpmnT7NPoQ==",
+  "dgSpecHash": "vfJvZ59bsY7eBpDTruzzv6VLws9mqKe6dBxpLjFCqziLW7GXvn7lmcfbmnGTprWJWcHASIR7Wsu/+0+PUplxwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
+  "projectFilePath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FABIO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

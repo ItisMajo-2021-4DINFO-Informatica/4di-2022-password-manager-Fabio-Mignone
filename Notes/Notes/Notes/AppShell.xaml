@@ -5,7 +5,7 @@
        x:Class="Notes.AppShell">
     <!-- Display a bottom tab bar containing two tabs -->
     <TabBar>
-        <ShellContent Title="Notes"
+        <ShellContent Title="Password manager"
                       Icon="icon_feed.png"
                       ContentTemplate="{DataTemplate views:NotesPage}" />
         <ShellContent Title="About"

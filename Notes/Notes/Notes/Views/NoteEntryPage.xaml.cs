@@ -24,16 +24,18 @@ namespace Notes.Views
             BindingContext = new Note();
         }
 
-        void LoadNote(string filename)
+        void LoadNote(string servizio)
         {
             try
             {
                 // Retrieve the note and set it as the BindingContext of the page.
                 Note note = new Note
                 {
-                    Filename = filename,
-                    Text = File.ReadAllText(filename),
-                    Date = File.GetCreationTime(filename)
+                    Servizio = servizio,
+                    Password = File.ReadAllText(servizio),
+                    NomeUtente = File.ReadAllText(servizio),
+                    Url = File.ReadAllText(servizio),
+                    Date = File.GetCreationTime(servizio)
                 };
                 BindingContext = note;
             }
@@ -47,16 +49,16 @@ namespace Notes.Views
         {
             var note = (Note)BindingContext;
 
-            if (string.IsNullOrWhiteSpace(note.Filename))
+            if (string.IsNullOrWhiteSpace(note.Servizio))
             {
                 // Save the file.
                 var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
-                File.WriteAllText(filename, note.Text);
+                File.WriteAllText(filename, note.Password);
             }
             else
             {
                 // Update the file.
-                File.WriteAllText(note.Filename, note.Text);
+                File.WriteAllText(note.Servizio, note.Password);
             }
 
             // Navigate backwards
@@ -68,9 +70,9 @@ namespace Notes.Views
             var note = (Note)BindingContext;
 
             // Delete the file.
-            if (File.Exists(note.Filename))
+            if (File.Exists(note.Servizio))
             {
-                File.Delete(note.Filename);
+                File.Delete(note.Servizio);
             }
 
             // Navigate backwards
