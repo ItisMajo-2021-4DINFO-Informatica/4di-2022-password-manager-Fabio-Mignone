@@ -24,19 +24,15 @@ namespace Notes.Views
             BindingContext = new Note();
         }
 
-        void LoadNote(string servizio)
+        void LoadNote(string filename)
         {
             try
             {
+                int id = Convert.ToInt32(filename);
+
                 // Retrieve the note and set it as the BindingContext of the page.
-                Note note = new Note
-                {
-                    Servizio = servizio,
-                    Password = File.ReadAllText(servizio),
-                    NomeUtente = File.ReadAllText(servizio),
-                    Url = File.ReadAllText(servizio),
-                    Date = File.GetCreationTime(servizio)
-                };
+                Note note = new Note();
+
                 BindingContext = note;
             }
             catch (Exception)
@@ -48,17 +44,17 @@ namespace Notes.Views
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
-
-            if (string.IsNullOrWhiteSpace(note.Servizio))
+            note.Date = DateTime.UtcNow;
+            if (string.IsNullOrWhiteSpace(note.NomeServizio))
             {
                 // Save the file.
                 var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
-                File.WriteAllText(filename, note.Password);
+                File.WriteAllText(filename, note);
             }
             else
             {
                 // Update the file.
-                File.WriteAllText(note.Servizio, note.Password);
+                File.WriteAllText(note.Filename, note.NomeServizio);
             }
 
             // Navigate backwards
@@ -70,9 +66,9 @@ namespace Notes.Views
             var note = (Note)BindingContext;
 
             // Delete the file.
-            if (File.Exists(note.Servizio))
+            if (File.Exists(note))
             {
-                File.Delete(note.Servizio);
+                File.Delete(note);
             }
 
             // Navigate backwards
