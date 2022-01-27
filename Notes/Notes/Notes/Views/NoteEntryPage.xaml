@@ -2,18 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.NoteEntryPage"
-             Title="Note Entry">
+             Title="Nuova Password">
     <!-- Layout children vertically -->
     <StackLayout Margin="20">
-        <Editor Placeholder="Enter your note"
-                Text="{Binding Text}"
+        <Editor Placeholder="Nome Servizio"
+                Text="{Binding ServiceName}"
+                HeightRequest="100" />
+        <Editor Placeholder="Username"
+                Text="{Binding Username}"
+                HeightRequest="100" />
+        <Editor Placeholder="Password"
+                Text="{Binding Password}"
+                HeightRequest="100" />
+        <Editor Placeholder="Url"
+                Text="{Binding URL}"
                 HeightRequest="100" />
         <!-- Layout children in two columns -->
         <Grid ColumnDefinitions="*,*">
             <Button Text="Salva"
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
-                    Text="Cancella"
+                    Text="Elimina"
                     Clicked="OnDeleteButtonClicked"/>
         </Grid>
     </StackLayout>
