@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/fPwTDHGGCV8tQrVxg0+Aj9RgyGtvhf7E9zk955lX/G3fbyISIlSpmIblUzvn6kzq9wBMreoSliKfO1dOUObXg==",
+  "dgSpecHash": "3qT9pUaqk+aEP6tD/sRZsw1jV9BAfp+SkN7FM0fkqfrXmCkDtcCaN1sLOW5r36B+w3DAXbytFYsElXz7etJ2AA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
+  "projectFilePath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FABIO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

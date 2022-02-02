@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.AboutPage"
-             Title="About">
+             Title="Info">
     <!-- Layout children in two rows -->
     <Grid RowDefinitions="Auto,*">
         <Image Source="xamarin_logo.png"
@@ -17,10 +17,10 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>
-                            <Span Text="Password manager"
+                            <Span Text="Password Manager"
                                   FontAttributes="Bold"
-                                  FontSize="22" />
-                            <Span Text=" v1.0" />
+                                  FontSize="32" />
+                            <Span Text=" by Fabio Mignone" />
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>

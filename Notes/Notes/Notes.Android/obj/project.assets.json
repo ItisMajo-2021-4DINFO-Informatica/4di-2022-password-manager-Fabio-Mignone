@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
+      "projectUniqueName": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
       "projectName": "Notes.Android",
-      "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
+      "projectPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
       "packagesPath": "C:\\Users\\FABIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\obj\\",
+      "outputPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
-              "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj"
+            "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj": {
+              "projectPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj"
             }
           }
         }

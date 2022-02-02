@@ -28,11 +28,18 @@ namespace Notes.Views
         {
             try
             {
-                int id = Convert.ToInt32(filename);
-
+                string allText = File.ReadAllText(filename);
+                string[] campi = allText.Split('§');
                 // Retrieve the note and set it as the BindingContext of the page.
-                Note note = new Note();
-
+                Note note = new Note
+                {
+                    Filename = filename,
+                    ServiceName = campi[0],
+                    Username = campi[1],
+                    Password = campi[2],
+                    URL = campi[3],
+                    Date = File.GetCreationTime(filename)
+                };
                 BindingContext = note;
             }
             catch (Exception)
@@ -44,17 +51,25 @@ namespace Notes.Views
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
-            note.Date = DateTime.UtcNow;
-            if (string.IsNullOrWhiteSpace(note.NomeServizio))
+
+            if (string.IsNullOrWhiteSpace(note.Filename))
             {
                 // Save the file.
                 var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
-                File.WriteAllText(filename, note);
+                string allText = note.ServiceName + "§" +
+                    note.Username + "§" +
+                    note.Password + "§" +
+                    note.URL;
+                File.WriteAllText(filename, allText);
             }
             else
             {
                 // Update the file.
-                File.WriteAllText(note.Filename, note.NomeServizio);
+                string allText = note.ServiceName + "§" +
+                                note.Username + "§" +
+                                note.Password + "§" +
+                                note.URL;
+                File.WriteAllText(note.Filename, allText);
             }
 
             // Navigate backwards
@@ -66,9 +81,9 @@ namespace Notes.Views
             var note = (Note)BindingContext;
 
             // Delete the file.
-            if (File.Exists(note))
+            if (File.Exists(note.Filename))
             {
-                File.Delete(note);
+                File.Delete(note.Filename);
             }
 
             // Navigate backwards

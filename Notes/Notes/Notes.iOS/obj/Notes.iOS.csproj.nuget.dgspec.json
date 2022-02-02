@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj": {}
+    "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj": {
+    "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
         "projectName": "Notes.iOS",
-        "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
+        "projectPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
         "packagesPath": "C:\\Users\\FABIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\obj\\",
+        "outputPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
-                "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj"
+              "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj": {
+                "projectPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
+    "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj",
+        "projectUniqueName": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj",
         "projectName": "Notes",
-        "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj",
+        "projectPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj",
         "packagesPath": "C:\\Users\\FABIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\obj\\",
+        "outputPath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\VISUAL_STUDIO\\COMPONENTI\\NuGetPackages",
@@ -134,7 +134,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
