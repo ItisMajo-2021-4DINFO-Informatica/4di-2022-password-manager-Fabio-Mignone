@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TbDuXn3c/LmvzVhrgyITbvToBR2r2DnciI5LmKBbMuPFEI8mrQghzwZzvkhk1dRwq+fpXFK0isIm0Yk8BKIq+A==",
+  "dgSpecHash": "ujFrwflISDe6IY8CwV5mt32Yp2VPaLMczlvaCF/Kf4JZmUhQDEdJn7cgEZ2FmB2IZXccdLrBefd3p2kfZlTjrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
+  "projectFilePath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\FABIO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\migno\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

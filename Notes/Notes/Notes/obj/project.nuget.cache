@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "B+0aJg9tTTood1WywrEeFgVweK0bEgLeDEJp7g2gn2V93goRkrAcnp3uu5mPefBJyWz1BvJ22tDLGyl5s7em+g==",
+  "dgSpecHash": "CJ+u1bWLEBUxeo47huNqZ7RPtnyU5sOrSLN/tcETbn2FdF750q921dwYqe7xQ3xT5yhTC4X92mhDQBooX78HmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FABIO\\Desktop\\Notes\\Notes\\Notes\\Notes.csproj",
+  "projectFilePath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\FABIO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\FABIO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\FABIO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\migno\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\migno\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\migno\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
