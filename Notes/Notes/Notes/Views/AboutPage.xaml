@@ -5,10 +5,6 @@
              Title="Info">
     <!-- Layout children in two rows -->
     <Grid RowDefinitions="Auto,*">
-        <Image Source="xamarin_logo.png"
-               BackgroundColor="{OnPlatform iOS=LightSlateGray, Android=#2196F3}"
-               VerticalOptions="Center"
-               HeightRequest="64" />
         <!-- Layout children vertically -->
         <StackLayout Grid.Row="1"
                      Margin="20"
@@ -25,9 +21,7 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Label Text="This app is written in XAML and C# with the Xamarin Platform." />
-            <Button Text="Learn more"
-                    Clicked="OnButtonClicked" />
+            <Label Text="Password manager è un app che ti permette di salvare in modo sicuro le tue password" />
         </StackLayout>
     </Grid>
 </ContentPage>

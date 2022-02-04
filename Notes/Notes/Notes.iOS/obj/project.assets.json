@@ -991,26 +991,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\migno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\FABIO\\.nuget\\packages\\": {},
+    "F:\\VISUAL_STUDIO\\COMPONENTI\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
       "projectName": "Notes.iOS",
-      "projectPath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
-      "packagesPath": "C:\\Users\\migno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\obj\\",
+      "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
+      "packagesPath": "C:\\Users\\FABIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "F:\\VISUAL_STUDIO\\COMPONENTI\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\migno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FABIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1025,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
-              "projectPath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj"
+            "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
+              "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj"
             }
           }
         }

@@ -8,6 +8,9 @@
         <ShellContent Title="Le Mie Password"
                       Icon="icon_feed.png"
                       ContentTemplate="{DataTemplate views:NotesPage}" />
+        <ShellContent Title="Strumenti"
+                      Icon=" non c'è limmagine :( "
+                      ContentTemplate="{DataTemplate views:Tool}" />
         <ShellContent Title="Info"
                       Icon="icon_about.png"
                       ContentTemplate="{DataTemplate views:AboutPage}" />
