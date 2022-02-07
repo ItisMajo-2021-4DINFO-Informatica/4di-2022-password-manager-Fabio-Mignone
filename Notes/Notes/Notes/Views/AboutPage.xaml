@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.AboutPage"
-             Title="Info">
+             Title="Info"
+             BackgroundColor="Black">
     <!-- Layout children in two rows -->
     <Grid RowDefinitions="Auto,*">
         <!-- Layout children vertically -->
@@ -13,15 +14,18 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>
-                            <Span Text="Password Manager"
+                            <Span TextColor="White"
+                                  Text="Password Manager"
                                   FontAttributes="Bold"
                                   FontSize="32" />
-                            <Span Text=" by Fabio Mignone" />
+                            <Span TextColor="White" Text=" by "/>
+                            <Span TextColor="Orange" Text=" Fabio Mignone" />
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Label Text="Password manager è un app che ti permette di salvare in modo sicuro le tue password" />
+            <Label TextColor="White" Text="Password manager è un app che ti permette di salvare in modo sicuro le tue password."/>
+            <Label TextColor="White" Text="è possibile in oltre generare password con vari livelli di sicurezza grazie alla personalizzazione della lunghezza e alla scelta opzionale di includere caratteri speciali, e con un semplice click copiarla negli appunti."/>
         </StackLayout>
     </Grid>
 </ContentPage>

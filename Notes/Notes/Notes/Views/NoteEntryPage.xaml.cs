@@ -2,6 +2,7 @@
 using System.IO;
 using Notes.Models;
 using Xamarin.Forms;
+using EncryptionDecryptionUsingSymmetricKey;
 
 namespace Notes.Views
 {
@@ -44,13 +45,14 @@ namespace Notes.Views
             }
             catch (Exception)
             {
-                Console.WriteLine("Failed to load note.");
+                Console.WriteLine("Errore nel caricamento della password");
             }
         }
 
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
+            var key = "b14ca5898a4e4133bbce2ea2315a1916";
 
             if (string.IsNullOrWhiteSpace(note.Filename))
             {

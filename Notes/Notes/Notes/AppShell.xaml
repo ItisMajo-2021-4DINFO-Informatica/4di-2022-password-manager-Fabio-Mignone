@@ -2,14 +2,19 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:Notes.Views"
-       x:Class="Notes.AppShell">
+       x:Class="Notes.AppShell"
+       ForegroundColor="Black"
+       TitleColor="Black"
+       DisabledColor="Black"
+       BackgroundColor="Orange"
+       UnselectedColor="White">
     <!-- Display a bottom tab bar containing two tabs -->
     <TabBar>
         <ShellContent Title="Le Mie Password"
                       Icon="icon_feed.png"
                       ContentTemplate="{DataTemplate views:NotesPage}" />
-        <ShellContent Title="Strumenti"
-                      Icon=" non c'è limmagine :( "
+        <ShellContent Title="Generatore di password"
+                      Icon=" non c'è l'immagine :( "
                       ContentTemplate="{DataTemplate views:Tool}" />
         <ShellContent Title="Info"
                       Icon="icon_about.png"

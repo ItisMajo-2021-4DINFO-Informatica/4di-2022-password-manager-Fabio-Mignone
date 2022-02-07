@@ -2,26 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.NoteEntryPage"
-             Title="Password">
+             Title="Password"
+             BackgroundColor="Black">
     <!-- Layout children vertically -->
     <StackLayout Margin="20">
         <Editor Placeholder="Nome Servizio"
+                PlaceholderColor="White"
+                TextColor="White"
                 Text="{Binding ServiceName}"
-                HeightRequest="100" />
+                HeightRequest="50" />
         <Editor Placeholder="Nome Utente e/o E-mail"
+                PlaceholderColor="White"
+                TextColor="White"
                 Text="{Binding Username}"
-                HeightRequest="100" />
+                HeightRequest="50" />
         <Editor Placeholder="Password"
+                PlaceholderColor="White"
+                TextColor="White"
                 Text="{Binding Password}"
-                HeightRequest="100" />
-        <Editor Placeholder="Url"
+                HeightRequest="50" />
+        <Editor Placeholder="Url del servizio"
+                PlaceholderColor="White"
+                TextColor="White"
                 Text="{Binding URL}"
-                HeightRequest="100" />
+                HeightRequest="50" />
         <!-- Layout children in two columns -->
         <Grid ColumnDefinitions="*,*">
             <Button Text="Salva"
+                    BackgroundColor="Orange"
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
+                    BackgroundColor="Orange"
                     Text="Elimina"
                     Clicked="OnDeleteButtonClicked"/>
         </Grid>

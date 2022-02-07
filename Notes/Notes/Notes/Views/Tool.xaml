@@ -1,11 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Notes.Views.Tool">
+             x:Class="Notes.Views.Tool"
+             Title = "Generatore di Password"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Generatore di Password"></Label>
-            <Button Text="Genera" Clicked="Button_Clicked"></Button>
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Label HorizontalOptions="Center" FontSize="20" TextColor="White" Text="Seleziona il Numero di Caratteri:"></Label>
+                <RadioButton x:Name="charone" TextColor="White" GroupName="charnumb" Content="12 Caratteri" />
+                <RadioButton x:Name="chartwo" TextColor="White" GroupName="charnumb" Content="16 Caratteri" />
+                <RadioButton x:Name="chartre" TextColor="White" GroupName="charnumb" Content="20 Caratteri" />
+                <Label HorizontalOptions="Center" FontSize="20" TextColor="White" Text="Aggiungere caratteri speciali ? es:  _-.*!,^|%   "/>
+                <RadioButton x:Name="charyes" TextColor="White" GroupName="chartype" Content="Si" />
+                <RadioButton x:Name="charno" TextColor="White" GroupName="chartype" Content="No" />
+                <Button Text="Genera"  BackgroundColor="Orange" Clicked="Button_Clicked" HorizontalOptions="Center"></Button>
+                <Label HorizontalOptions="Center" FontSize="20" TextColor="White" Text="La tua password:"></Label>
+                <Label HorizontalOptions="Center" FontSize="20" TextColor="White" x:Name="Output" Text=""></Label>
+                <Button Text="Salva negli appunti" BackgroundColor="Orange" x:Name="btnsave" Clicked="btnsave_Clicked" HorizontalOptions="Center"></Button>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
