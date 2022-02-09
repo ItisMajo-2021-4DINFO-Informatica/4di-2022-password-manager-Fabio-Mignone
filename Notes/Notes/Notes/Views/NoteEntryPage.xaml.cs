@@ -2,7 +2,6 @@
 using System.IO;
 using Notes.Models;
 using Xamarin.Forms;
-using EncryptionDecryptionUsingSymmetricKey;
 
 namespace Notes.Views
 {
@@ -27,8 +26,9 @@ namespace Notes.Views
 
         void LoadNote(string filename)
         {
+
             try
-            {
+            {            
                 string allText = File.ReadAllText(filename);
                 string[] campi = allText.Split('§');
                 // Retrieve the note and set it as the BindingContext of the page.
@@ -52,8 +52,6 @@ namespace Notes.Views
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
-            var key = "b14ca5898a4e4133bbce2ea2315a1916";
-
             if (string.IsNullOrWhiteSpace(note.Filename))
             {
                 // Save the file.

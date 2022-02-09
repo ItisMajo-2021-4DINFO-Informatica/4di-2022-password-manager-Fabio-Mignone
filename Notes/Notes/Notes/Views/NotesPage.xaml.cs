@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using Notes.Models;
 using Xamarin.Forms;
-using EncryptionDecryptionUsingSymmetricKey;
 
 namespace Notes.Views
 {
@@ -18,13 +17,12 @@ namespace Notes.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            var key = "b14ca5898a4e4133bbce2ea2315a1916";
             var notes = new List<Note>();
-
             // Create a Note object from each file.
             var files = Directory.EnumerateFiles(App.FolderPath, "*.notes.txt");
             foreach (var filename in files)
             {
+
                 string allText = File.ReadAllText(filename);
                 string[] campi = allText.Split('§');
                 notes.Add(new Note

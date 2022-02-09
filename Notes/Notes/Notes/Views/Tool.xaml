@@ -17,7 +17,7 @@
                 <Button Text="Genera"  BackgroundColor="Orange" Clicked="Button_Clicked" HorizontalOptions="Center"></Button>
                 <Label HorizontalOptions="Center" FontSize="20" TextColor="White" Text="La tua password:"></Label>
                 <Label HorizontalOptions="Center" FontSize="20" TextColor="White" x:Name="Output" Text=""></Label>
-                <Button Text="Salva negli appunti" BackgroundColor="Orange" x:Name="btnsave" Clicked="btnsave_Clicked" HorizontalOptions="Center"></Button>
+                <Button Text="Copia negli appunti" BackgroundColor="Orange" x:Name="btnsave" Clicked="btnsave_Clicked" HorizontalOptions="Center"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

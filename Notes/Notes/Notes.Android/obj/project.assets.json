@@ -2142,26 +2142,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FABIO\\.nuget\\packages\\": {},
-    "F:\\VISUAL_STUDIO\\COMPONENTI\\NuGetPackages": {},
+    "C:\\Users\\migno\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
+      "projectUniqueName": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
       "projectName": "Notes.Android",
-      "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
-      "packagesPath": "C:\\Users\\FABIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\obj\\",
+      "projectPath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\Notes.Android.csproj",
+      "packagesPath": "C:\\Users\\migno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "F:\\VISUAL_STUDIO\\COMPONENTI\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\FABIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\migno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
-              "projectPath": "C:\\Users\\FABIO\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj"
+            "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj": {
+              "projectPath": "C:\\Users\\migno\\Documents\\GitHub\\4di-2022-password-manager-Fabio-Mignone\\Notes\\Notes\\Notes\\Notes.csproj"
             }
           }
         }
