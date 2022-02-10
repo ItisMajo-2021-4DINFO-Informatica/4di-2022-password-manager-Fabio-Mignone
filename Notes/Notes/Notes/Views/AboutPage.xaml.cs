@@ -10,5 +10,10 @@ namespace Notes.Views
         {
             InitializeComponent();
         }
+
+        async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Launcher.OpenAsync("https://github.com/Fabio-Mignone");
+        }
     }
 }
