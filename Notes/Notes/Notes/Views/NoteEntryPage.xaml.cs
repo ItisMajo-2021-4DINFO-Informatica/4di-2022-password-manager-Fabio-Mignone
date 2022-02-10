@@ -2,12 +2,16 @@
 using System.IO;
 using Notes.Models;
 using Xamarin.Forms;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace Notes.Views
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public partial class NoteEntryPage : ContentPage
     {
+        string chiave = "ehyzjemk,jrtisbdehysnklewtsbkdli";
+        string vettore = "habrnxtsmklisnwt";
         public string ItemId
         {
             set
@@ -30,7 +34,8 @@ namespace Notes.Views
             try
             {            
                 string allText = File.ReadAllText(filename);
-                string[] campi = allText.Split('§');
+                string textconverted = Decrittografia(allText);
+                string[] campi = textconverted.Split('+');
                 // Retrieve the note and set it as the BindingContext of the page.
                 Note note = new Note
                 {
@@ -56,20 +61,20 @@ namespace Notes.Views
             {
                 // Save the file.
                 var filename = Path.Combine(App.FolderPath, $"{Path.GetRandomFileName()}.notes.txt");
-                string allText = note.ServiceName + "§" +
-                    note.Username + "§" +
-                    note.Password + "§" +
+                string allText = note.ServiceName + "+" +
+                    note.Username + "+" +
+                    note.Password + "+" +
                     note.URL;
-                File.WriteAllText(filename, allText);
+                File.WriteAllText(filename, Crittografia(allText));
             }
             else
             {
                 // Update the file.
-                string allText = note.ServiceName + "§" +
-                                note.Username + "§" +
-                                note.Password + "§" +
+                string allText = note.ServiceName + "+" +
+                                note.Username + "+" +
+                                note.Password + "+" +
                                 note.URL;
-                File.WriteAllText(note.Filename, allText);
+                File.WriteAllText(note.Filename, Crittografia(allText));
             }
 
             // Navigate backwards
@@ -88,6 +93,45 @@ namespace Notes.Views
 
             // Navigate backwards
             await Shell.Current.GoToAsync("..");
+        }
+
+        public string Crittografia(string allText)
+        {
+            byte[] testoDacriptare = ASCIIEncoding.ASCII.GetBytes(allText);
+
+            AesCryptoServiceProvider aes = new AesCryptoServiceProvider();
+            aes.BlockSize = 128;
+            aes.KeySize = 256;
+            aes.Key = ASCIIEncoding.ASCII.GetBytes(chiave);
+            aes.IV = ASCIIEncoding.ASCII.GetBytes(vettore);
+            aes.Mode = CipherMode.CBC;
+            aes.Padding = PaddingMode.PKCS7;
+            ICryptoTransform ict = aes.CreateEncryptor(aes.Key, aes.IV);
+            byte[] testoCriptato = ict.TransformFinalBlock(testoDacriptare, 0, testoDacriptare.Length);
+            ict.Dispose();
+
+            string critto = Convert.ToBase64String(testoCriptato);
+            return critto;
+        }
+
+        public string Decrittografia(string allText)
+        {
+            byte[] testoCriptato = Convert.FromBase64String(allText);
+            AesCryptoServiceProvider aes = new AesCryptoServiceProvider();
+            aes.BlockSize = 128;
+            aes.KeySize = 256;
+            aes.Key = ASCIIEncoding.ASCII.GetBytes(chiave);
+            aes.IV = ASCIIEncoding.ASCII.GetBytes(vettore);
+            aes.Mode = CipherMode.CBC;
+            aes.Padding = PaddingMode.PKCS7;
+
+
+            ICryptoTransform tdc = aes.CreateDecryptor(aes.Key, aes.IV);
+            byte[] testoDecriptato = tdc.TransformFinalBlock(testoCriptato, 0, testoCriptato.Length);
+            tdc.Dispose();
+            string decritto = ASCIIEncoding.ASCII.GetString(testoDecriptato);
+
+            return (decritto);
         }
     }
 }
