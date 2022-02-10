@@ -10,6 +10,7 @@ C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\No
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\build.props
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\adb.props
+C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\Notes.Android.csproj.AssemblyReference.cache
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\stamp\_BuildLibraryImportsCache.stamp
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\res.flag
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\lp\44\jl\files.cache
@@ -576,4 +577,3 @@ C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\No
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\migno\Documents\GitHub\4di-2022-password-manager-Fabio-Mignone\Notes\Notes\Notes.Android\obj\Debug\110\Notes.Android.csproj.AssemblyReference.cache

@@ -14,7 +14,7 @@
                       Icon="icon_feed.png"
                       ContentTemplate="{DataTemplate views:NotesPage}" />
         <ShellContent Title="Generatore di password"
-                      Icon=" non c'è l'immagine :( "
+                      Icon="icon_aste.png"
                       ContentTemplate="{DataTemplate views:Tool}" />
         <ShellContent Title="Info"
                       Icon="icon_about.png"

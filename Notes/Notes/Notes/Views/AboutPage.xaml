@@ -24,7 +24,7 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Label TextColor="White" Text="Password manager è un app che ti permette di salvare in modo sicuro le tue password."/>
+            <Label TextColor="White" Text="Password manager è un app che ti permette di salvare in modo sicuro le tue password attraverso la cifratura dei dati con l'algoritmo AES a chiave simmetrica."/>
             <Label TextColor="White" Text="è possibile in oltre generare password con vari livelli di sicurezza grazie alla personalizzazione della lunghezza e alla scelta opzionale di includere caratteri speciali, e con un semplice click copiarla negli appunti."/>
         </StackLayout>
     </Grid>
